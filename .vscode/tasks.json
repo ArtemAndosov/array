@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "clear & build & run",
+            "type": "shell",
+            "command": "rm -r build;  cmake -S . -B build -G 'MinGW Makefiles';  cmake --build build; build\\start.exe",
+            "problemMatcher": []
+        },
+    ]
+}

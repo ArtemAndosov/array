@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.27)
+project(start)
+set(APP_SOURCES hello.cpp)
+add_executable(${PROJECT_NAME} ${APP_SOURCES})
+add_definitions(-O3 -Wall -pedantic -fPIC -c -W -std=c++17)
